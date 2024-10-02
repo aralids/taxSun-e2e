@@ -1,0 +1,16 @@
+{
+	"name": "e2e",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "playwright test --trace on",
+		"test:report": "playwright show-report"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@playwright/test": "^1.46.1",
+		"@types/node": "^20.11.22"
+	}
+}
